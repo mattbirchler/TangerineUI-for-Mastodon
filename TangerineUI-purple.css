@@ -9031,3 +9031,16 @@ a:is(.active,
     grid-column: 2;
     grid-row: 2;
 }
+
+/* Edit-profile / Follow button: render it filled (accent) like the pre-4.6
+   Tangerine. 4.6 ships Edit profile as a light "button-secondary"; the extra
+   .button-secondary in the selector wins over the generic secondary styling. */
+.app-body ._comp_account_header__followButton.button.button-secondary {
+    background-color: var(--color-accent);
+    color: var(--color-accent-fg);
+    border-color: var(--color-accent);
+}
+.app-body ._comp_account_header__followButton.button.button-secondary:is(:hover, :active, :focus) {
+    background-color: var(--color-accent-focus);
+    border-color: var(--color-accent-focus);
+}
