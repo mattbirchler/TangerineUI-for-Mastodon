@@ -4377,6 +4377,10 @@ div[tabindex="-1"] + div[tabindex="-1"] > .status__wrapper > .status-reply.statu
     }
 }
 
+.app-body [class*="filterOverlay"] {
+    z-index: 3;
+}
+
 
 /* 📍 Navigation panel
    ------------------- */
