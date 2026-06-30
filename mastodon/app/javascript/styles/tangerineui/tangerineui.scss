@@ -784,6 +784,17 @@ body.app-body  {
         transform: scale(1);
     }
 }
+@keyframes bounce-xsml {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.05);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
 @keyframes bounce-vertical {
     0% {
         transform: translateY(0);
@@ -2184,7 +2195,7 @@ body.app-body  {
     background-color: var(--color-accent-bg);
 }
 .app-body .compose-form:not(:has(.autosuggest-textarea__textarea:placeholder-shown)) .compose-form__submit {
-    animation: bounce-sml .2s ease-out 1;
+    animation: bounce-xsml .3s ease-out 1;
 }
 
 .app-body .upload-area__background {
