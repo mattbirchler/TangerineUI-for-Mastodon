@@ -3325,7 +3325,7 @@ div[tabindex="-1"] + div[tabindex="-1"] > .status__wrapper > .status-reply.statu
     border: 1px solid var(--color-lines);
     box-shadow: none;
     transition: all .3s;
-    border-radius: 9px;
+    border-radius: 8px;
 }
 .app-body .status-card:hover,
 .app-body .status-card.compact:hover {
@@ -3600,7 +3600,7 @@ div[tabindex="-1"] + div[tabindex="-1"] > .status__wrapper > .status-reply.statu
 /* Quote posts */
 .app-body .status__quote {
     margin-inline-start: 0;
-    border-radius: 10px;
+    border-radius: 8px;
     border: 1px solid var(--color-lines);
     transition: all .3s;
     width: auto;
@@ -3618,7 +3618,7 @@ div[tabindex="-1"] + div[tabindex="-1"] > .status__wrapper > .status-reply.statu
     display: none;
 }
 .app-body .status__quote .status__wrapper {
-    border-radius: 10px;
+    border-radius: 8px;
 }
 .app-body .status--is-quote {
     margin-inline-start: 0;
