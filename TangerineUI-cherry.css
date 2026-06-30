@@ -6514,6 +6514,11 @@ div[tabindex="-1"] + div[tabindex="-1"] > .status__wrapper > .status-reply.statu
 .app-body .button.disabled {
     opacity: .7;
 }
+.app-body .button[class*="verifiedLinkHelpButton"],
+.app-body .button[class*="verifiedLinkHelpButton"]:is(:active, :hover, :focus) {
+    color: var(--color-accent-fg);
+    text-decoration: none;
+}
 .app-body .text-icon-button.active,
 .app-body .button.button-tertiary,
 .app-body .account__header__fields a,
